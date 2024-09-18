@@ -1,0 +1,261 @@
+﻿@using Application.Convertors
+
+@model WebSite.Models.ViewModels.Index.IndexViewModel
+
+
+@{
+    ViewData["Title"] = "صفحه اصلی";
+}
+
+<section class="search-area">
+    <!-- <img src="./images/banner2.png" alt=""> -->
+    <div class="search-area-box">
+        <div class="search-area-text">
+            <h1 class="search-area-main">مشاوره اولین قدم به سمت سلامتی</h1>
+            <p class="search-area-sub">
+                ویزیت؛ نوبت‌دهی اینترنتی و مشاوره آنلاین پزشکان ایران
+            </p>
+        </div>
+        <div class="search-area-input-box">
+            <form asp-action="ListOfDoctors" asp-controller="Home">
+            <input class="search-area-input"
+                   type="text"
+                   name="filterFullName"
+                   placeholder="نام پزشک، تخصص ، بیماری و ..." />
+            <button class="search-area-button">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke-width="1.5"
+                     stroke="currentColor"
+                     class="search-area-icon">
+                    <path stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="title">
+        <div class="title-icon">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke-width="1.5"
+                 stroke="currentColor"
+                 class="link-icon">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>
+        </div>
+        <h1 class="title-text">تخصص های پرکاربرد</h1>
+
+    </div>
+    <div class="swiper test">
+        <div class="swiper-wrapper">
+
+            @foreach (var item in Model.Categories)
+            {
+                <div class="swiper-slide">
+                    <div class="specialties-main">
+                        <a asp-action="ListOfDoctors" asp-controller="Home" asp-route-filterExpertise="@item.Name">
+                            <img src="~/CategoryImage/@item.ImageName"
+                                 alt=""
+                                 class="specialties-main-img" />
+                            <span class="specialties-main-name">@item.Name</span>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="title">
+        <div class="title-icon">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke-width="1.5"
+                 stroke="currentColor"
+                 class="link-icon">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>
+        </div>
+        <h1 class="title-text">پزشکان آنلاین</h1>
+    </div>
+
+    <div class="swiper online">
+        <div class="swiper-wrapper">
+
+            @foreach (var item in Model.Users)
+            {
+                <div class="swiper-slide ">
+                    <div class="online-doctor">
+                        <img class="online-doctor-img"
+                             src="~/UserAvatar/@item.ImageName"
+                             alt="" />
+                        <span class="online-doctor-name">@item.FullName</span>
+                        <span class="online-doctor-expertise">@item.Expertise</span>
+                        <a class="get-advice-btn" asp-action="Reservation" asp-controller="Home" asp-route-userId="@item.Id">دریافت مشاوره</a>
+                    </div>
+                </div>
+            }
+
+
+
+
+        </div>
+
+    </div>
+</section>
+<section class="register-new-doctor">
+    <div>
+        <h3 class="register-new-doctor-main">ثبت پزشکان در ویزیت :)</h3>
+        <p class="register-new-doctor-sub">
+            تا دیر نشده شما هم به جمع پزشکان ویزیت بپیوندید...
+        </p>
+    </div>
+    <div>
+        <a class="register-new-doctor-btn" asp-action="Register" asp-controller="Account">ثبت نام پزشکان</a>
+    </div>
+</section>
+<section class="section">
+    <div class="title">
+        <div class="title-icon">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke-width="1.5"
+                 stroke="currentColor"
+                 class="link-icon">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>
+        </div>
+        <h1 class="title-text">محبوب ترین پزشکان</h1>
+    </div>
+
+    <div class="swiper popular">
+        <div class="swiper-wrapper ">
+            @foreach (var item in Model.Users)
+            {
+                <div class="swiper-slide ">
+                    <div class="online-doctor">
+                        <img class="online-doctor-img"
+                             src="~/UserAvatar/@item.ImageName"
+                             alt="" />
+                        <span class="online-doctor-name">@item.FullName</span>
+                        <span class="online-doctor-expertise">@item.Expertise</span>
+                        <a class="get-advice-btn" asp-action="Reservation" asp-controller="Home" asp-route-userId="@item.Id">دریافت مشاوره</a>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+
+    </div>
+
+
+</section>
+<section class="section">
+    <div class="title">
+        <div class="title-icon">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke-width="1.5"
+                 stroke="currentColor"
+                 class="link-icon">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>
+        </div>
+        <h1 class="title-text">نظرات کاربران</h1>
+    </div>
+    <div class="swiper comments">
+        <div class="swiper-wrapper">
+
+            @foreach (var item in Model.Comments)
+            {
+
+                <div class="swiper-slide">
+                    <div class="comment">
+                        <a asp-action="Reservation" asp-route-userId="@item.DoctorId" class="comment-link">
+                        <div class="comment-header">
+                            <div class="doctor-information">
+                                <img class="doctor-img" src="~/UserAvatar/@item.User.ImageName" alt="" />
+                                <div>
+                                    <span class="doctor-name">@item.User.FullName</span>
+                                </div>
+                            </div>
+                            <img class="qutation" src="~/medicaltheme/images/quotation.png" alt="" />
+                        </div>
+
+                        <div class="comment-text">
+                            <p>
+                             @item.comment
+                            </p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    </div>
+</section>
+<section class="section">
+    <div class="title">
+        <div class="title-icon">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke-width="1.5"
+                 stroke="currentColor"
+                 class="link-icon">
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>
+        </div>
+        <h1 class="title-text">بیشتر بدانید...</h1>
+    </div>
+    <div class="swiper blogs">
+        <div class="swiper-wrapper">
+            @foreach (var item in Model.Blogs)
+            {
+                <div class="swiper-slide">
+                    <div class="blog">
+                        <img src="~/BlogImage/@item.ImageName" alt="" class="blog-img">
+                        <h2 class="blog-title">@item.Title</h2>
+                        <p class="blog-summary">@item.Summary</p>
+                        <div class="blog-footer">
+                            <span class="blog-date">@item.Insertdate.ToShamsi()</span>
+                            <a asp-action="BlogDetail" asp-controller="Home" asp-route-id="@item.Id" class="blog-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="blog-icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                                </svg>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</section>

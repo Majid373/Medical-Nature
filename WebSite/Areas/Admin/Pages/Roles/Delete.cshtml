@@ -1,0 +1,21 @@
+﻿@page "{id}"
+@model WebSite.Areas.Admin.Pages.Roles.DeleteModel
+@{
+    ViewData["Title"] = "Edit  role";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="container alert alert-danger mt-5">
+        <form method="post">
+            <input type="hidden" asp-for="Role.Id" />
+            <input type="hidden" asp-for="Role.Name" />
+            <h2>آیا از حذف نقش "@Model.Role.Name" مطمئن هستید </h2>
+            <p>
+                <input type="submit" value="حذف کن" class="btn btn-outline btn-danger" />
+                <a asp-page="/Roles/Index" class="btn btn-outline btn-info">انصراف</a>
+            </p>
+        </form>
+    </div>
+
+</div>

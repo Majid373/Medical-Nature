@@ -1,0 +1,43 @@
+﻿@model Application.Services.PaginatedList<Domain.Users.Comment>
+
+@{
+    Layout = null;
+}
+
+<h1 class="header-primary">نظرات</h1>
+
+@foreach (var item in Model)
+{
+    <div class="comment-user-item">
+        <img class="comment-user-item-user-avatar"
+             src="/UserAvatar/@item.User.ImageName"
+             alt="" />
+        <div class="comment-user-item-text">
+            <p class="comment-user-name">@item.User.FullName</p>
+            <p class="comment-user-date">@item.InsertDate</p>
+            <p class="comment-user-body">
+                @item.comment
+            </p>
+        </div>
+    </div>
+}
+
+<nav aria-label="...">
+    <ul class="pagination">
+        <li class="page-item  @((!Model.HasPreviousPage)?"disabled":"")">
+            <a onclick="pageComment(@(Model.PageIndex-1))" class="page-link" style="font-weight:300; font-size:12px; width:auto;">Previous</a>
+
+        </li>
+        <li onclick="pageComment(@(Model.PageIndex+1))" class="page-item   @((!Model.HasNextPage)?"disabled":"")">
+            <a class="page-link" style="font-weight:300; font-size:12px; width:auto;">Next</a>
+        </li>
+    </ul>
+</nav>
+@* asp-action="ShowComment"
+               asp-controller="Home"
+               asp-route-pageNumber="@(Model.PageIndex-1)" *@
+
+
+@*                asp-action="ShowComment"
+               asp-controller="Home"
+               asp-route-pageNumber="@(Model.PageIndex+1)" *@

@@ -1,0 +1,84 @@
+﻿@model WebSite.Models.ViewModels.User.RegisterViewModel
+
+@{
+    ViewData["Title"] = "ثبت نام";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="container login-section">
+    <div class="login-body">
+        <div class="login-form">
+            <h1 class="login-title">ثبت نام</h1>
+            <form asp-action="Register" asp-controller="Account" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div>
+                    <label asp-for="FullName" class="login-lable" for="">نام و نام خانوادگی :</label>
+                    <input asp-for="FullName" type="text" class="login-input" />
+                    <span asp-validation-for="FullName" class="text-danger asp-validation"></span>
+                </div>
+                <div>
+                    <label asp-for="Email" class="login-lable" for="">ایمیل :</label>
+                    <input asp-for="Email" type="text" class="login-input" />
+                    <span asp-validation-for="Email" class="text-danger asp-validation"></span>
+                </div>
+                <div class="IsDoctor">
+
+                    <div class="IsDoctor-Child">
+                        <input type="radio" name="user" class="IsDoctor-Child-input user" />
+                        <label class="login-lable" for="">: کاربر عادی هستم </label>
+                    </div>
+             
+                    <div class="IsDoctor-Child">
+                        <input  asp-for="IsDoctor" type="radio" value="true" name="user" class="IsDoctor-Child-input doctor" />
+                        <label asp-for="IsDoctor" class="login-lable" for="">: پزشک هستم</label>
+                    </div>
+                    <div class="IsDoctor-Child-File">
+                        <label asp-for="ImageDegreeOfEducationUrl" class="login-lable" for="">تصویر مدرک تحصیلی :</label>
+                        <input asp-for="ImageDegreeOfEducationUrl" type="file" class="IsDoctor-Child-input" />
+                    </div>
+
+                </div>
+                <div>
+                    <label asp-for="Password" class="login-lable" for="">کلمه عبور :</label>
+                    <input asp-for="Password" type="password" class="login-input" />
+                    <span asp-validation-for="Password" class="text-danger asp-validation"></span>
+                </div>
+                <div>
+                    <label asp-for="RePassword" class="login-lable" for="">تکرار کلمه عبور :</label>
+                    <input asp-for="RePassword" type="password" class="login-input" />
+                    <span asp-validation-for="RePassword" class="text-danger asp-validation"></span>
+                </div>
+                <input type="submit" value="ثبت نام" class="login-body-btn"></input>
+            </form>
+
+            <div class="register-footer">
+                <span>قبلا ثبت نام کرده اید؟</span>
+                <a asp-action="Login" asp-controller="Account" class="registe-link">وارد شوید</a>
+            </div>
+        </div>
+        <img src="~/medicaltheme/images/sign-up.jpg" alt="" class="login-img" />
+    </div>
+</section>
+
+
+
+<script>
+    const IFormFile = document.querySelector(".IsDoctor-Child-File");
+    const doctorInput = document.querySelector(".doctor");
+    const userInput = document.querySelector(".user");
+
+    doctorInput.addEventListener("change", function () {
+        if (doctorInput.checked) {
+            IFormFile.style.display = "block";
+        } else {
+            IFormFile.style.display = "none";
+        }
+    });
+    userInput.addEventListener("change", function () {
+        if (userInput.checked) {
+            IFormFile.style.display = "none";
+        } else {
+            IFormFile.style.display = "block";
+        }
+    });
+</script>

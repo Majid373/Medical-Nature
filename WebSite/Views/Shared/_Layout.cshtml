@@ -1,0 +1,357 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService _authorization;
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/medicaltheme/css/Style.css" />
+    <link rel="stylesheet" href="~/medicaltheme/css/medisQuery.css" />
+    <script defer src="~/medicaltheme/js/script.js"></script>
+    <script type="module"
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule=""
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.11.2/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="~/medicaltheme/lib/swiper/swiper-bundle.min.css">
+    <script src="/js/jquery.min.js"></script>
+</head>
+<body>
+    <section class="header-section ">
+        <header class="header ">
+            <a asp-action="Index" asp-controller="Home">
+                <img src="~/medicaltheme/images/logo.png" alt="logo" class="logo" />
+            </a>
+
+            <nav class="main-nav ">
+                <ul class="main-nav-list">
+                    <li><a asp-action="Index" asp-controller="Home" class="main-nav-link">صفحه اصلی</a></li>
+                    <li><a asp-action="ListOfDoctors" asp-controller="Home" class="main-nav-link">لیست پزشکان</a></li>
+                    <li><a asp-action="Blogs" asp-controller="Home" class="main-nav-link">وبلاگ</a></li>
+                    <li><a asp-action="AboutUs" asp-controller="Home" class="main-nav-link">درباره ما</a></li>
+                    <li><a asp-action="ContactUs" asp-controller="Home" class="main-nav-link">تماس با ما</a></li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (_authorization.AuthorizeAsync(User, "AdminUsers").Result.Succeeded)
+                        {
+                            <li><a asp-page="/Index" asp-area="Admin" class="main-nav-link"> پنل ادمین</a></li>
+                        }
+                    }
+                </ul>
+            </nav>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div>
+                    <a asp-action="Profile" asp-controller="Account" class="main-nav-link">پنل کاربری</a>
+
+                    <a asp-action="LogOut" asp-controller="Account" class="main-nav-link">خروج</a>
+                </div>
+            }
+            else
+            {
+                <a asp-action="login" asp-controller="Account" class="login-btn">ورود | ثبت نام</a>
+            }
+
+
+            <button class="btn-mobile-nav">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke-width="1.5"
+                     stroke="currentColor"
+                     class="icon-mobile-nav menu-icon">
+                    <path stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke-width="1.5"
+                     stroke="currentColor"
+                     class="icon-mobile-nav close-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+
+            </button>
+        </header>
+    </section>
+
+
+    <partial name="_Notification" />
+
+    @RenderBody()
+
+    <footer class="footer">
+        <div class="description">
+            <div class="description-right-side">
+                <img src="~/medicaltheme/images/logo.png" alt="" class="footer-logo">
+                <div class="description-text">
+                    ویزیت ساده‌ترین راه نوبت‌ دهی اینترنتی و مشاوره آنلاین پزشکان ایران است. پزشکان به کمک ویزیت می‌توانند امکان نوبت دهی اینترنتی و مشاوره تلفنی خود را فعال کنند. به این ترتیب بیمار برای نوبت گیری از دکتر نیاز به روش‌های سنتی مثل تلفن زدن یا مراجعه حضوری ندارد.
+                </div>
+            </div>
+            <div class="certification">
+                <img class="certification-img" src="~/medicaltheme/images/enamad_logo.jpg" alt="">
+                <img class="certification-img" src="~/medicaltheme/images/namad-4.png" alt="">
+                <img class="certification-img" src="~/medicaltheme/images/namad-5.png" alt="">
+                <img class="certification-img" src="~/medicaltheme/images/namad-6.png" alt="">
+                <img class="certification-img" src="~/medicaltheme/images/samandehi_logo.jpg" alt="">
+            </div>
+        </div>
+        <div class="footer-links">
+            <nav class="footer-main-nav">
+                <p class="footer-heading">دسترسی سریع</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">صفحه اصلی</a></li>
+                    <li><a class="footer-link" href="#">لیست پزشکان</a></li>
+                    <li><a class="footer-link" href="#">رزرو نوبت</a></li>
+                    <li><a class="footer-link" href="#">تماس با ما</a></li>
+                    <li><a class="footer-link" href="#">وبلاگ</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-main-nav">
+                <p class="footer-heading">خدمات ویزیت</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">درباره ما</a></li>
+                    <li><a class="footer-link" href="#">سوالات متداول</a></li>
+                    <li><a class="footer-link" href="#">صفحه داخلی بلاگ</a></li>
+                    <li><a class="footer-link" href="#">ورود</a></li>
+                    <li><a class="footer-link" href="#">ثبت نام</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-main-nav">
+                <p class="footer-heading">دسترسی سریع</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">فراموشی رمز عبور</a></li>
+                    <li><a class="footer-link" href="#">404</a></li>
+                    <li><a class="footer-link" href="#">ثبت موفق</a></li>
+                    <li><a class="footer-link" href="#">ثبت ناموفق</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-main-nav">
+                <p class="footer-heading">خدمات ویزیت</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">دانلود ها</a></li>
+                    <li><a class="footer-link" href="#">صورتحساب ها</a></li>
+                    <li><a class="footer-link" href="#">نظرات</a></li>
+                    <li><a class="footer-link" href="#">پیام ها</a></li>
+                    <li><a class="footer-link" href="#">جزئیات حساب کاربری</a></li>
+                </ul>
+            </nav>
+            <div class="membership-box">
+                <p class="footer-heading">عضویت در خبرنامه</p>
+                <div class="search-area-input-box">
+                    <input class="search-area-input"
+                           type="text"
+                           placeholder="username@site.com" />
+                    <button class="search-area-button">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke-width="1.5"
+                             stroke="currentColor"
+                             class="search-area-icon">
+                            <path stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </button>
+                </div>
+                <p class="footer-heading">ویزیت در شبکه های اجتماعی</p>
+                <div class="social">
+                    <a class="" href="#">
+                        <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                    </a>
+                    <a class="" href="#">
+                        <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                    </a>
+                    <a class="" href="#">
+                        <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="copyRight">
+        <p class="copyRight-text">Copyright © 2023 - تمامی حقوق برای راست چین محفوظ می باشد</p>
+    </footer>
+
+    <script src="~/medicaltheme/lib/swiper/swiper-bundle.min.js"></script>
+    <script src="~/js/jquery.validate.min.js"></script>
+    <script src="~/js/jquery.validate.unobtrusive.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script defer>
+        var swiper = new Swiper(" .test", {
+            slidesPerView: 7,
+            breakpoints: {
+                1600: {
+                    slidesPerView: 7
+                },
+                1248: {
+                    slidesPerView: 6,
+                },
+                928: {
+                    slidesPerView: 5,
+                },
+                768: {
+                    slidesPerView: 4,
+                },
+                560: {
+                    slidesPerView: 3,
+                },
+                416: {
+                    slidesPerView: 2,
+                },
+                320: {
+                    slidesPerView: 1,
+                },
+            },
+            spaceBetween: 15,
+            loop: true,
+            freeMode: true,
+            centeredSlides: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper(" .online", {
+            slidesPerView: 5,
+            breakpoints: {
+                1600: {
+                    slidesPerView: 5,
+                },
+                1248: {
+                    slidesPerView: 5,
+                },
+                928: {
+                    slidesPerView: 3,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                560: {
+                    slidesPerView: 2,
+                },
+                416: {
+                    slidesPerView: 1,
+                },
+                320: {
+                    slidesPerView: 1,
+                },
+            },
+            loop: true,
+            freeMode: true,
+            centeredSlides: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper(" .popular", {
+            slidesPerView: 5,
+            breakpoints: {
+                1600: {
+                    slidesPerView: 5,
+                },
+                1248: {
+                    slidesPerView: 5,
+                },
+                928: {
+                    slidesPerView: 3,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                560: {
+                    slidesPerView: 2,
+                },
+                416: {
+                    slidesPerView: 1,
+                },
+                320: {
+                    slidesPerView: 1,
+                },
+            },
+            loop: true,
+            freeMode: true,
+            centeredSlides: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper(" .comments", {
+            slidesPerView: 2,
+            breakpoints: {
+                1600: {
+                    slidesPerView: 2,
+                },
+                1248: {
+                    slidesPerView: 2,
+                },
+                928: {
+                    slidesPerView: 2,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                560: {
+                    slidesPerView: 1,
+                },
+                320: {
+                    slidesPerView: 1,
+                },
+            },
+            loop: true,
+            freeMode: true,
+            centeredSlides: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper(" .blogs", {
+            slidesPerView: 4,
+
+            breakpoints: {
+                1600: {
+                    slidesPerView: 4,
+                },
+                1248: {
+                    slidesPerView: 4,
+                },
+                928: {
+                    slidesPerView: 3,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                560: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                320: {
+                    slidesPerView: 1,
+                },
+            },
+            loop: true,
+            freeMode: true,
+            centeredSlides: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+    @RenderSection("Scripts", false)
+</body>
+</html>

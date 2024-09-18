@@ -1,0 +1,48 @@
+﻿@page "{id}"
+@model WebSite.Areas.Admin.Pages.Users.DeleteUserModel
+@{
+    ViewData["Title"] = "Add new user";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                حذف کاربر
+            </div>
+            <div class="panel-body">
+                <form method="post">
+                    <input type="hidden" asp-for="DeleteUser.Id" name="Id"  />
+
+                    <dl class="dl-horizontal">
+                        <dt>نام و نام خانوادگی : </dt>
+                        <dd>@Model.DeleteUser.FullName</dd>
+                        <dt>ایمیل : </dt>
+                        <dd>@Model.DeleteUser.Email</dd>
+                        <dt>  وضعیت حساب کاربری  : </dt>
+                        <dd>
+                            @if (Model.DeleteUser.EmailConfirmed)
+                            {
+                                <p class="text-success">فعال</p>
+                            }
+                            else
+                            {
+                                <p class="text-danger">غیر فعال</p>
+                            }
+                        </dd>
+                        <dt>تاریخ عضویت : </dt>
+                        <dd>@Model.DeleteUser.RegisterDate</dd>
+                        <dt></dt>
+                        <dd>
+                            <input type="submit" value="حذف" class="btn btn-danger" />
+                        </dd>
+                    </dl>
+                </form>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+
+</div>

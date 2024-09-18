@@ -1,0 +1,100 @@
+﻿@page
+@model WebSite.Areas.Admin.Pages.Users.CreateUserModel
+@{
+    ViewData["Title"] = "Add new user";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">افزودن کاربر جدید</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="col-md-8">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        اطلاعات کاربر
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label>نام کاربری</label>
+                            <input type="text" asp-for="CreateUser.FullName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>ایمیل</label>
+                            <input type="email" asp-for="CreateUser.Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>کلمه عبور</label>
+                            <input type="text" asp-for="CreateUser.Password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>تخصص</label>
+                            <input type="text" asp-for="CreateUser.Expertise" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>تایید مدرک تحصیلی</label>
+                            <input type="checkbox" asp-for="CreateUser.IsDoctor" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>انتخاب تصویر مدرک تحصیلی</label>
+                            <input type="file" asp-for="CreateUser.DegreeOfEducationUrl">
+                        </div>
+
+                        <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        تصویر پروفایل
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <img id="imgAvatar" class="thumbnail" src="~/MedicalTheme/images/Defult.jpg" />
+                        <div class="form-group">
+                            <label>انتخاب تصویر</label>
+                            <input type="file" asp-for="CreateUser.UserAvatarUrl">
+                        </div>
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+    @section Scripts
+    {
+        <script>
+            function readURL(input) {
+
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('#imgAvatar').attr('src', e.target.result);
+                    }
+
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+
+            $("#CreateUserViewModel_UserAvatar").change(function () {
+                readURL(this);
+            });
+        </script>
+    }

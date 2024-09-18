@@ -1,0 +1,343 @@
+﻿@using Application.Convertors
+@model WebSite.Models.ViewModels.Home.ReservationViewModel
+
+
+@{
+    ViewData["Title"] = "Reservation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="reservation-page">
+        <div class="reservation-section">
+            <div class="dotor-information">
+                <div class="dotor-information-avatar">
+                    <img class="dotor-information-img"
+                         src="~/UserAvatar/@Model.User.ImageName"
+                         alt="" />
+                    <h1 class="dotor-information-name">@Model.User.FullName</h1>
+                    <p class="dotor-information-expertise">@Model.User.Expertise</p>
+                </div>
+                <div class="dotor-information-detail">
+                    <div class="dotor-information-detail-rate">
+                        <div class="doctor-box-header">
+                            <div class="doctor-box-header-rate">
+                                <div class="doctor-box-header-rate-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke-width="1.5"
+                                         stroke="currentColor"
+                                         class="rate-icon">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <span class="rate-value">4.8</span>
+                                </div>
+                                <div class="doctor-box-header-rate-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke-width="1.5"
+                                         stroke="currentColor"
+                                         class="suggestion-icon">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                                    </svg>
+                                    <span class="suggestion-value">96 درصد پیشنهاد</span>
+                                </div>
+                                <span class="comment-number">2733 نظر</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dotor-information-detail-ways">
+                        <div class="doctor-information-ways-item">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor"
+                                 class="doctor-information-ways-item-icon">
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+                            <p>مشاوره تلفنی</p>
+                        </div>
+                        <div class="doctor-information-ways-item">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor"
+                                 class="doctor-information-ways-item-icon">
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                            </svg>
+                            <p>مشاوره متنی</p>
+                        </div>
+                        <div class="doctor-information-ways-item">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 fill="none" viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor"
+                                 class="doctor-information-ways-item-icon">
+                                <path stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+
+
+
+                            <p>نوبت حضوری</p>
+                        </div>
+                    </div>
+                    <div class="dotor-information-detail-address">
+                        <p>
+                            <span>آدرس:</span> تهران، بلوار شهران شمالی، بالاتر از فلکه
+                            دوم شهران، بعد از مسجد امام علی
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-doctor">
+                <h1 class="list-doctor-aside-header">درباره پزشک</h1>
+                <p class="about-doctor-detail">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                    استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                    در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                    نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                    کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                    جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+                    طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                    فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                    موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد
+                    نیاز شامل حروفچینی دستاوردهای اصلی گیرد.
+                </p>
+                <p class="about-doctor-detail">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+                    ستون و سطرآنچنان که لازم است و برای شرایط تکنولوژی مورد نیاز می
+                    باشد.
+                </p>
+            </div>
+            <div class="doctor-specialties">
+                <h1 class="list-doctor-aside-header">تخصص های پزشک</h1>
+                <div class="doctor-specialties-tag-box">
+                    <a class="doctor-specialties-tag" href="#">#درد_شکم_کودکان</a>
+                    <a class="doctor-specialties-tag" href="#">#تاخیر_رشد</a>
+                </div>
+            </div>
+
+            <div class="q-and-a" id="textual">
+                <h1 class="header-primary">دریافت نوبت مشاوره متنی</h1>
+                <div class="get-apointment">
+                    @foreach (var item in Model.TextualAppointments)
+                    {
+                        <form method="post" asp-action="PaymentGetWay" asp-controller="Home">
+                            <div class="get-apointment-item">
+
+                                <input type="hidden" name="appointmentId" asp-for="@item.Id" />
+                                <input type="hidden" name="amount" asp-for="@item.Price" />
+                                <div>
+                                    <label class="get-apointment-item-lable" for="">تاریخ :</label>
+                                    <label class="get-apointment-item-lable" for="">@item.Date.FormattedDate()</label>
+                                </div>
+                                <div>
+                                    <label class="get-apointment-item-lable" for="">ساعت :</label>
+                                    <label class="get-apointment-item-lable" for="">
+                                        @item.Time.ToString("HH,mm")
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="get-apointment-item-lable" for="">قیمت :</label>
+                                    <label class="get-apointment-item-lable" for="">
+                                        @item.Price.ToString("n0") تومان
+                                    </label>
+                                </div>
+
+                                <input type="submit"
+                                       value="پرداخت"
+                                       class="get-apointment-item-botton" />
+
+                            </div>
+                        </form>
+                    }
+
+                </div>
+            </div>
+            <div class="q-and-a" id="by-phone">
+                <h1 class="header-primary">دریافت نوبت مشاوره تلفنی</h1>
+                <div class="get-apointment">
+
+                    @foreach (var item in Model.ByPhoneAppointments)
+                    {
+                        <form method="post" asp-action="PaymentGetWay" asp-controller="Home">
+                            <div class="get-apointment-item">
+                                <input type="hidden" name="appointmentId" asp-for="@item.Id" />
+                                <input type="hidden" name="amount" asp-for="@item.Price"  />
+
+
+                                <div>
+                                    <label class="get-apointment-item-lable" for="">تاریخ :</label>
+                                    <label class="get-apointment-item-lable" for="">@item.Date.FormattedDate()</label>
+                                </div>
+                                <div>
+                                    <label class="get-apointment-item-lable" for="">ساعت :</label>
+                                    <label class="get-apointment-item-lable" for="">
+                                        @item.Time.ToString("HH:mm")    
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="get-apointment-item-lable" for="">قیمت :</label>
+                                    <label class="get-apointment-item-lable" for="">
+                                        @item.Price.ToString("n0") تومان
+                                    </label>
+                                </div>
+
+                                <input type="submit"
+                                       value="پرداخت"
+                                       class="get-apointment-item-botton" />
+
+                            </div>
+                        </form>
+                    }
+
+
+                </div>
+            </div>
+
+            <div class="q-and-a">
+                <h1 class="header-primary"> نظرات درباره دکتر @Model.User.FullName</h1>
+                <form class="q-and-a-form" asp-action="CreateComment" asp-controller="Home"
+                      data-ajax="true"
+                      data-ajax-methode="post"
+                      data-ajax-mode="replace"
+                      data-ajax-update="#comment_user"
+                      data-ajax-success="Success">
+                    <input type="hidden" name="newComment.DoctorId" value="@Model.User.Id" />
+
+                    <div class="q-and-a-form-textarea">
+                        <label class="lable-primary" for="">متن پیام</label>
+                        <textarea class="textarea-primary"
+                                  name="newComment.Comment"
+                                  id="comment_Comment"
+                                  cols="30"
+                                  rows="10"></textarea>
+                    </div>
+                    <button class="q-and-a-form-btn">ارسال پیام</button>
+                </form>
+            </div>
+
+            <div class="comment-user" id="comment_user">
+            </div>
+
+        </div>
+        <aside class="reservation-aside">
+            <h1 class="header-primary">روش های دریافت نوبت</h1>
+            <div class="reservation-aside-ways">
+                <h2 class="reservation-aside-ways-header">مشاوره متنی</h2>
+                <div class="reservation-aside-ways-detail">
+                    <div class="reservation-aside-ways-body">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke-width="1.5"
+                             stroke="currentColor"
+                             class="reservation-aside-ways-icon">
+                            <path stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+
+                        <p class="reservation-aside-ways-body-detail">10 دقیقه گفتگو</p>
+                    </div>
+                    <div class="reservation-aside-ways-body">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke-width="1.5"
+                             stroke="currentColor"
+                             class="reservation-aside-ways-icon">
+                            <path stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                        </svg>
+
+                        <p class="reservation-aside-ways-body-detail">
+                            اولین نوبت خالی: دوشنبه 20 شهریور ساعت 14:45
+                        </p>
+                    </div>
+                </div>
+                <div class="reservation-aside-ways-footer">
+                    <p class="reservation-aside-ways-price">@Model.User.PriceTextual تومان</p>
+                    <a class="reservation-aside-link" href="#textual">نوبت بگیرید</a>
+                </div>
+            </div>
+            <div class="reservation-aside-ways">
+                <h2 class="reservation-aside-ways-header">مشاوره تلفنی</h2>
+                <div class="reservation-aside-ways-detail">
+                    <div class="reservation-aside-ways-body">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke-width="1.5"
+                             stroke="currentColor"
+                             class="reservation-aside-ways-icon">
+                            <path stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+
+                        <p class="reservation-aside-ways-body-detail">10 دقیقه گفتگو</p>
+                    </div>
+                    <div class="reservation-aside-ways-body">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke-width="1.5"
+                             stroke="currentColor"
+                             class="reservation-aside-ways-icon">
+                            <path stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                        </svg>
+
+                        <p class="reservation-aside-ways-body-detail">
+                            اولین نوبت خالی: دوشنبه 20 شهریور ساعت 14:45
+                        </p>
+                    </div>
+                </div>
+                <div class="reservation-aside-ways-footer">
+                    <p class="reservation-aside-ways-price">@Model.User.PriceByPhone تومان</p>
+                    <a class="reservation-aside-link" href="#by-phone">نوبت بگیرید</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/medicaltheme/js/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/medicaltheme/js/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script>
+        function Success() {
+            console.log("Comment submitted successfully!");
+            $("#comment_Comment").val("");
+        }
+
+        function pageComment(pageNumber) {
+            $("#comment_user").load("/Home/ShowComment/" + @Html.Raw(Json.Serialize(Model.User.Id)) + "?pageNumber=" + pageNumber);
+        }
+
+        $(function () {
+            $("#comment_user").load("/Home/ShowComment/" + @Html.Raw(Json.Serialize(Model.User.Id)));
+        });
+
+
+    </script>
+}

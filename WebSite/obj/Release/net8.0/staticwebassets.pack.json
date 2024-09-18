@@ -1,0 +1,3021 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\WebSite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebSite.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\BlogImage\\24eb5018d6974e21a2f261ebe6fd7c9e.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\24eb5018d6974e21a2f261ebe6fd7c9e.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\BlogImage\\4d9b4358208748d19e413d4015fce9cf.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\4d9b4358208748d19e413d4015fce9cf.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\BlogImage\\526d50a7eb7545bf870f4b2b3ba8a5e3.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\526d50a7eb7545bf870f4b2b3ba8a5e3.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\BlogImage\\5452be5ae1ad4257ba18f54147663a10.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\5452be5ae1ad4257ba18f54147663a10.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\BlogImage\\6f1be2ef9c32441d89ed393c3803ebdf.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\6f1be2ef9c32441d89ed393c3803ebdf.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\BlogImage\\DefaultBlog.png",
+      "PackagePath": "staticwebassets\\BlogImage\\DefaultBlog.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\33f7d9741b2d47799fa5d6b8fc7db75f.png",
+      "PackagePath": "staticwebassets\\CategoryImage\\33f7d9741b2d47799fa5d6b8fc7db75f.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\4d5ffc32a2eb4d199e429a74ddcf3582.png",
+      "PackagePath": "staticwebassets\\CategoryImage\\4d5ffc32a2eb4d199e429a74ddcf3582.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\5617cbae3b954e668bf11b7ecc62d931.png",
+      "PackagePath": "staticwebassets\\CategoryImage\\5617cbae3b954e668bf11b7ecc62d931.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\81946027a2494304b56d325328513972.png",
+      "PackagePath": "staticwebassets\\CategoryImage\\81946027a2494304b56d325328513972.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\83c516ac0e794a9f84b29cc817115c21.png",
+      "PackagePath": "staticwebassets\\CategoryImage\\83c516ac0e794a9f84b29cc817115c21.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\CategoryDefault.jpg",
+      "PackagePath": "staticwebassets\\CategoryImage\\CategoryDefault.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\b413c9b5ae6049c7b43aad2efdea4b5f.png",
+      "PackagePath": "staticwebassets\\CategoryImage\\b413c9b5ae6049c7b43aad2efdea4b5f.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\cf7e51f89dbe41a78d721a6f4260f192.png",
+      "PackagePath": "staticwebassets\\CategoryImage\\cf7e51f89dbe41a78d721a6f4260f192.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\CategoryImage\\f28d097c08f14256a0f0e2f3a499cf3a.png",
+      "PackagePath": "staticwebassets\\CategoryImage\\f28d097c08f14256a0f0e2f3a499cf3a.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\363ac1114856492b82628ca6dc86c957.png",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\363ac1114856492b82628ca6dc86c957.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\485cfcc775aa4de3a75bab96be44bf33.png",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\485cfcc775aa4de3a75bab96be44bf33.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\54a597e328b74aa4a2e1a0d72f4148b0.png",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\54a597e328b74aa4a2e1a0d72f4148b0.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\9c500510b8b94aea991695843bdf4543.png",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\9c500510b8b94aea991695843bdf4543.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\a94526ee99f941fab31cb92b0f6cf016.png",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\a94526ee99f941fab31cb92b0f6cf016.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\b465ed6e89864d538405f4bfb18e0604.jpg",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\b465ed6e89864d538405f4bfb18e0604.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\dc2f15346635473b80f3265a74ef7ad5.png",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\dc2f15346635473b80f3265a74ef7ad5.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\ee015b0c559a4a1e87b138583fd291b3.png",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\ee015b0c559a4a1e87b138583fd291b3.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\DegreeOfEducation\\images (1).jpg",
+      "PackagePath": "staticwebassets\\DegreeOfEducation\\images (1).jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\Index.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\Index.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\ListOfDoctors.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\ListOfDoctors.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\aboutUs.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\aboutUs.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\blog.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\blog.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\blogDetail.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\blogDetail.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\contactUs.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\contactUs.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Black-FD.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Black-FD.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Black-FD.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Black-FD.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Black-FD.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Black-FD.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Black-FD.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Black-FD.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Bold-FD.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Bold-FD.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Bold-FD.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Bold-FD.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Bold-FD.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Bold-FD.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Bold-FD.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Light-FD.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Light-FD.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Light-FD.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Light-FD.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Light-FD.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Light-FD.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Light-FD.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Light-FD.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Medium-FD.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Medium-FD.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Medium-FD.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Medium-FD.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Medium-FD.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Medium-FD.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Medium-FD.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Medium-FD.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Regular-FD.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Regular-FD.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Regular-FD.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Regular-FD.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Regular-FD.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Regular-FD.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Regular-FD.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Regular-FD.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Thin-FD.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Thin-FD.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Thin-FD.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Thin-FD.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Thin-FD.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Thin-FD.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Thin-FD.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Farsi-Digits\\Vazir-Thin-FD.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Fontjo.Com ورود به.url",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Fontjo.Com ورود به.url"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Fontjo.IR ورود به.url",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Fontjo.IR ورود به.url"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\HELP.md",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\HELP.md"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\OFL.txt",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\OFL.txt"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\README.md",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\README.md"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Black-FD-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Bold-FD-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Light-FD-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Medium-FD-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Regular-FD-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits-Without-Latin\\Vazir-Thin-FD-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Black-FD-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Black-FD-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Black-FD-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Black-FD-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Black-FD-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Black-FD-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Black-FD-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Black-FD-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Bold-FD-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Bold-FD-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Bold-FD-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Bold-FD-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Bold-FD-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Bold-FD-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Bold-FD-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Bold-FD-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Light-FD-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Light-FD-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Light-FD-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Light-FD-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Light-FD-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Light-FD-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Light-FD-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Light-FD-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Medium-FD-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Medium-FD-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Medium-FD-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Medium-FD-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Medium-FD-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Medium-FD-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Medium-FD-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Medium-FD-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Regular-FD-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Regular-FD-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Regular-FD-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Regular-FD-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Regular-FD-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Regular-FD-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Regular-FD-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Regular-FD-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Thin-FD-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Thin-FD-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Thin-FD-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Thin-FD-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Thin-FD-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Thin-FD-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Thin-FD-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Farsi-Digits\\Vazir-Thin-FD-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Black-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Black-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Black-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Black-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Black-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Black-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Black-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Black-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Bold-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Bold-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Bold-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Bold-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Bold-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Bold-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Bold-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Bold-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Light-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Light-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Light-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Light-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Light-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Light-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Light-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Light-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Medium-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Medium-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Medium-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Medium-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Medium-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Medium-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Medium-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Medium-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Regular-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Regular-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Regular-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Regular-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Regular-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Regular-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Regular-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Regular-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Thin-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Thin-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Thin-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Thin-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Thin-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Thin-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Vazir-Thin-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Vazir-Thin-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Black-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Black-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Black-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Black-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Black-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Black-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Black-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Black-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Bold-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Bold-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Bold-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Bold-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Bold-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Bold-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Bold-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Bold-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Light-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Light-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Light-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Light-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Light-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Light-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Light-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Light-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Medium-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Medium-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Medium-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Medium-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Medium-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Medium-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Medium-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Medium-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Regular-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Regular-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Regular-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Regular-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Regular-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Regular-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Regular-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Regular-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Thin-WOL-UI.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Thin-WOL-UI.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Thin-WOL-UI.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Thin-WOL-UI.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Thin-WOL-UI.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Thin-WOL-UI.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Thin-WOL-UI.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\UI\\Without-Latin\\Vazir-Thin-WOL-UI.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Black.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Black.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Black.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Black.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Black.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Black.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Black.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Black.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Bold.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Bold.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Bold.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Bold.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Bold.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Bold.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Bold.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Light.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Light.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Light.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Light.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Light.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Light.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Light.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Light.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Medium.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Medium.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Medium.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Medium.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Medium.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Medium.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Medium.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Medium.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Regular.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Regular.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Regular.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Regular.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Regular.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Regular.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Regular.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Thin.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Thin.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Thin.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Thin.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Thin.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Thin.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Thin.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Thin.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Variable.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Variable.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Variable.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Variable.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Variable.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Variable.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Vazir-Variable.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Vazir-Variable.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Black-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Black-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Black-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Black-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Black-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Black-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Black-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Black-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Bold-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Bold-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Bold-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Bold-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Bold-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Bold-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Bold-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Bold-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Light-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Light-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Light-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Light-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Light-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Light-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Light-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Light-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Medium-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Medium-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Medium-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Medium-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Medium-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Medium-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Medium-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Medium-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Regular-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Regular-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Regular-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Regular-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Regular-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Regular-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Regular-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Regular-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Thin-WOL.eot",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Thin-WOL.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Thin-WOL.ttf",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Thin-WOL.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Thin-WOL.woff",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Thin-WOL.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Thin-WOL.woff2",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\Without-Latin\\Vazir-Thin-WOL.woff2"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\read me!.txt",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\read me!.txt"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\font\\sample.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\font\\sample.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\medisQuery.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\medisQuery.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\css\\style.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\forgotPassword.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\forgotPassword.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\Defult.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\Defult.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\about-2.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\about-2.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\aliRezaYaseri.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\aliRezaYaseri.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\avatar.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\banner2.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\banner2.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\banner3.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\banner3.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\blog-img-1.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\blog-img-1.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\blog1.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\blog1.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\blog2.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\blog2.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\blog3.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\blog3.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\blog4.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\blog4.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\blog5.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\blog5.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\cardiovascular.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\cardiovascular.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\dentist.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\dentist.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\digestion.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\digestion.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\enamad_logo.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\enamad_logo.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\generalDoctor.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\generalDoctor.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\home-bg.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\home-bg2.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\home-bg2.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\login.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\logo.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\minaDelavar.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\minaDelavar.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\namad-4.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\namad-4.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\namad-5.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\namad-5.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\namad-6.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\namad-6.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\nastaranSabahi.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\nastaranSabahi.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\optometrist.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\optometrist.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\orthopedist.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\orthopedist.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\pass.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\pass.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\quotation.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\quotation.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\samandehi_logo.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\samandehi_logo.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\sign-up.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\sign-up.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\soheilNahavandi.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\soheilNahavandi.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\tahaEskandari.jpg",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\tahaEskandari.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\images\\urology.png",
+      "PackagePath": "staticwebassets\\MedicalTheme\\images\\urology.png"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\js\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\js\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\js\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\js\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\js\\script.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\js\\script.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\LICENSE",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\README.md",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\README.md"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\a11y.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\a11y.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\autoplay.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\autoplay.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\controller.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\controller.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cards.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-coverflow.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-creative.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-cube.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-fade.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\effect-flip.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\free-mode.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\free-mode.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\grid.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\grid.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\hash-navigation.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\history.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\history.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\index.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\index.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\index.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\index.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\index.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\index.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\keyboard.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\keyboard.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\manipulation.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\manipulation.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\mousewheel.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\navigation.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\navigation.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\pagination.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\pagination.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\parallax.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\parallax.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\scrollbar.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\thumbs.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\thumbs.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\virtual.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\virtual.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom-element.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom-element.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom-element.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom-element.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\modules\\zoom.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\modules\\zoom.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\package.json",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\package.json"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\classes-to-selector.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\classes-to-selector.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\classes-to-selector.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\classes-to-selector.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\classes-to-selector.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\classes-to-selector.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\create-element-if-not-defined.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\create-element-if-not-defined.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\create-element-if-not-defined.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\create-element-if-not-defined.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\create-element-if-not-defined.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\create-element-if-not-defined.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\create-shadow.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\create-shadow.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\create-shadow.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\create-shadow.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\create-shadow.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\create-shadow.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-init.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-init.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-init.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-init.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-init.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-init.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-target.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-target.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-target.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-target.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-target.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-target.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-virtual-transition-end.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-virtual-transition-end.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-virtual-transition-end.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-virtual-transition-end.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\effect-virtual-transition-end.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\effect-virtual-transition-end.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\get-element-params.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\get-element-params.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\get-element-params.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\get-element-params.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\get-element-params.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\get-element-params.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\ssr-window.esm.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\ssr-window.esm.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\ssr-window.esm.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\ssr-window.esm.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\ssr-window.esm.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\ssr-window.esm.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\swiper-core.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\swiper-core.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\swiper-core.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\swiper-core.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\swiper-core.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\swiper-core.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\update-on-virtual-data.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\update-on-virtual-data.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\update-on-virtual-data.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\update-on-virtual-data.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\update-on-virtual-data.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\update-on-virtual-data.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\update-swiper.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\update-swiper.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\update-swiper.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\update-swiper.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\update-swiper.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\update-swiper.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\utils.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\utils.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\utils.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\utils.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\shared\\utils.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\shared\\utils.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-bundle.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-bundle.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-bundle.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-bundle.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-bundle.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-bundle.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-bundle.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-effect-utils.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-effect-utils.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-effect-utils.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-effect-utils.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-effect-utils.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-effect-utils.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-effect-utils.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-effect-utils.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.min.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element-bundle.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element.min.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element.min.js.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element.min.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-element.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-element.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-react.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-react.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-react.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-react.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-vars.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-vars.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-vars.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-vars.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-vue.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-vue.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper-vue.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper-vue.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.less",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.min.css",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.min.js",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.min.js.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.min.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.min.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.min.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.min.mjs.map",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.min.mjs.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.mjs",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.mjs"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\swiper.scss",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\swiper.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\index.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\index.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\a11y.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\a11y.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\autoplay.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\autoplay.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\controller.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\controller.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-cards.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-cards.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-coverflow.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-coverflow.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-creative.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-creative.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-cube.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-cube.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-fade.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-fade.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-flip.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\effect-flip.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\free-mode.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\free-mode.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\grid.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\grid.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\hash-navigation.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\hash-navigation.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\history.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\history.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\index.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\index.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\keyboard.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\keyboard.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\manipulation.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\manipulation.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\mousewheel.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\mousewheel.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\navigation.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\navigation.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\pagination.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\pagination.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\parallax.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\parallax.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\public-api.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\public-api.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\scrollbar.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\scrollbar.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\thumbs.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\thumbs.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\virtual.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\virtual.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\modules\\zoom.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\modules\\zoom.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\shared.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\shared.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\swiper-class.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\swiper-class.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\swiper-events.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\swiper-events.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\lib\\swiper\\types\\swiper-options.d.ts",
+      "PackagePath": "staticwebassets\\MedicalTheme\\lib\\swiper\\types\\swiper-options.d.ts"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\login.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\login.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\register.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\register.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\MedicalTheme\\reservation.html",
+      "PackagePath": "staticwebassets\\MedicalTheme\\reservation.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\blank.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\blank.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\buttons.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\buttons.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\css\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\css\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\css\\plugins\\dataTables\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\css\\plugins\\morris\\morris-0.4.3.min.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\css\\plugins\\morris\\morris-0.4.3.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\css\\plugins\\social-buttons\\social-buttons.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\css\\plugins\\social-buttons\\social-buttons.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\css\\plugins\\timeline\\timeline.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\css\\plugins\\timeline\\timeline.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\css\\sb-admin.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\css\\sb-admin.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\flot.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\flot.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\spinning.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\forms.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\forms.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\grid.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\grid.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\index.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\index.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\demo\\dashboard-demo.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\demo\\dashboard-demo.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\demo\\flot-demo.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\demo\\flot-demo.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\demo\\morris-demo.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\demo\\morris-demo.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\jquery-1.10.2.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\jquery-1.10.2.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\dataTables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\dataTables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\dataTables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\flot\\excanvas.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\flot\\excanvas.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\flot\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\metisMenu\\jquery.metisMenu.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\morris\\morris.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\morris\\morris.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\plugins\\morris\\raphael-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\plugins\\morris\\raphael-2.1.0.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\js\\sb-admin.js",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\js\\sb-admin.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\login.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\login.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\morris.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\morris.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\notifications.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\notifications.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\panels-wells.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\panels-wells.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\tables.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\tables.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\TemplateAdminPanel\\typography.html",
+      "PackagePath": "staticwebassets\\TemplateAdminPanel\\typography.html"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\4db64eb00b6047b0ae1a117895e168ed.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\4db64eb00b6047b0ae1a117895e168ed.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\6aa96985d6444711a71be91e15c79f13.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\6aa96985d6444711a71be91e15c79f13.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\8f1d6aea35574507a40266b98458d311.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\8f1d6aea35574507a40266b98458d311.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\972dd544ff0141a8867fd4f246756f8a.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\972dd544ff0141a8867fd4f246756f8a.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\adb2c92000044f688043fd0aa7d656e1.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\adb2c92000044f688043fd0aa7d656e1.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\avatar.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\bec67a51430548ef92d34f1cc1ba418b.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\bec67a51430548ef92d34f1cc1ba418b.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\e0fcbdbf4d76485e9c704252105667cb.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\e0fcbdbf4d76485e9c704252105667cb.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\UserAvatar\\f00d2498eb6247528702bf3b5735ba80.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\f00d2498eb6247528702bf3b5735ba80.jpg"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\js\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\js\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\js\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\js\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Programing\\MedicalNatureOrg\\WebSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.WebSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.WebSite.props",
+      "PackagePath": "build\\WebSite.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebSite.props",
+      "PackagePath": "buildMultiTargeting\\WebSite.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebSite.props",
+      "PackagePath": "buildTransitive\\WebSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,67 @@
+﻿@using Application.Convertors
+@model Domain.Appointments.Appointment
+
+@{
+    ViewData["Title"] = "DeleteAppointment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs">
+    <ul>
+        <li class="breadcrumb-item">خانه</li>
+        <li class="breadcrumb-item before">پنل کاربری</li>
+    </ul>
+</div>
+<section class="container">
+    <div class="profile-page">
+        <partial name="_sideProfile"></partial>
+        <div class="profile-body">
+            <div class="profile-body-user-informatio">
+                <header class="profile-header-main">
+                    <h2 class="profile-header">افزودن نوبت</h2>
+                </header>
+                <div class="new-apointment">
+
+                    <form method="post" asp-action="DeleteAppointment" class="new-apointment-form">
+
+                        <input type="hidden" asp-for="@Model.Id" name="name" value="@Model.Id" />
+
+                        <div>
+                            <label class="login-lable">نوع نوبت :</label>
+                     @*        <select asp-for="@Model.Type" class="apointment-select" type="text">
+                                <option class="appointment-option" value="0">متنی</option>
+                                <option class="appointment-option" value="1">تلفنی</option>
+                            </select> *@
+                            <label class="login-lable">
+                                @if (@Model.Type==0)
+                                {
+                                    <p>متنی</p>
+                                }else
+                                {
+                                    <p>تلفنی</p>
+                                }
+                            </label>
+                        </div>
+                        <div>
+                            <label class="login-lable">تاریخ :</label>
+                            <label class="login-lable"> @Model.Date.FormattedDate()</label>
+                        </div>
+                        <div>
+                            <label class="login-lable">زمان :</label>
+                            <label class="login-lable">@Model.Time.ToString("mm: HH")</label>
+                  
+                        </div>
+                        <div>
+                            <label class="login-lable">قیمت :</label>
+                            <label class="login-lable">@Model.Price.ToString("n0")</label>
+
+                        </div>
+                        <input type="submit" value="حذف" class="new-apointment-btn" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+

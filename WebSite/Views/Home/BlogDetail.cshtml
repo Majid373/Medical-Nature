@@ -1,0 +1,83 @@
+﻿@using Application.Convertors
+@model Application.Dtos.BlogDetailViewModel
+@{
+    ViewData["Title"] = "BlogDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    <div class="blog-detail-page">
+        <div class="blog-detail-main">
+            <h1 class="header-primary">
+                @Model.Title
+                <div class="blog-detail-date-box">
+                    <div class="blog-detail-date-box-item">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke-width="1.5"
+                             stroke="currentColor"
+                             class="blog-detail-icon">
+                            <path stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+
+                        <span class="blog-date">@Model.InsertDate.ToShamsi()</span>
+                    </div>
+                    <div class="blog-detail-date-box-item">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none"
+                             viewBox="0 0 24 24"
+                             stroke-width="1.5"
+                             stroke="currentColor"
+                             class="blog-detail-icon">
+                            <path stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+                        </svg>
+                        <span class="blog-date">@Model.Category</span>
+                    </div>
+                </div>
+            </h1>
+            <img class="blog-detail-main-img"
+                 src="/BlogImage/@Model.ImageName"
+                 alt="" />
+            <div class="blog-detail-main-description">
+<p>
+                    @Html.Raw(Model.Description)  @*  @Model.Description.Replace("<p>", "") *@
+</p>
+            </div>
+          
+        </div>
+        <aside class="blog-detail-aside">
+            <h1 class="header-primary">پربازدیدترین ها</h1>
+            <div class="blog-detail-common">
+                <img class="blog-detail-common-img"
+                     src="~/medicaltheme/images/blog4.jpg"
+                     alt="" />
+                <p class="blog-detail-common-title">را های درمان خشکی پوست</p>
+            </div>
+            <div class="blog-detail-common">
+                <img class="blog-detail-common-img"
+                     src="~/medicaltheme/images/blog3.jpg"
+                     alt="" />
+                <p class="blog-detail-common-title">علائم سیاتیک چیست؟</p>
+            </div>
+            <div class="blog-detail-common">
+                <img class="blog-detail-common-img"
+                     src="~/medicaltheme/images/blog1.jpg"
+                     alt="" />
+                <p class="blog-detail-common-title">علائم نازک شدن مو های سر</p>
+            </div>
+            <div class="blog-detail-common">
+                <img class="blog-detail-common-img"
+                     src="~/medicaltheme/images/blog5.jpg"
+                     alt="" />
+                <p class="blog-detail-common-title">علائم یائسگی زودرس چیست؟</p>
+            </div>
+        </aside>
+    </div>
+</div>

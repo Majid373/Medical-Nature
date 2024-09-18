@@ -1,0 +1,44 @@
+﻿@model WebSite.Models.ViewModels.User.LoginViewModel
+
+@{
+    ViewData["Title"] = "ورود به سایت";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="login-section">
+    <div class="login-body">
+        <div class="login-form">
+            <h1 class="login-title">ورود</h1>
+            <form asp-action="login" asp-controller="Account">
+                <div>
+                    <label asp-for="Email" class="login-lable" for="">نام کاربری :</label>
+                    <input asp-for="Email" type="text" class="login-input" />
+                    <span asp-validation-for="Email" class="text-danger asp-validation"></span>
+                </div>
+                <div>
+                    <label asp-for="Password" class="login-lable" for="">کلمه عبور :</label>
+                    <input asp-for="Password" type="password" class="login-input" />
+                    <span asp-validation-for="Password" class="text-danger asp-validation"></span>
+                </div>
+                <input type="submit" value="ورود" class="login-body-btn"></input>
+            </form>
+            <a asp-action="ForgotPassword" asp-controller="Account" class="forgot-password-link">رمز عبور خود را فراموش کرده اید؟</a>
+            <div class="or">
+                <hr class="bar" />
+                <span>یا</span>
+                <hr class="bar" />
+            </div>
+            <a asp-action="Register" asp-controller="Account" class="registe-link">حساب کاربری ندارید!!!</a>
+        </div>
+        <img src="~/medicaltheme/images/login.jpg" alt="" class="login-img" />
+    </div>
+</section>
+
+
+
+
+@*    <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="ispersistent" /> @html.displaynamefor(model => model.ispersistent)
+                </label>
+            </div> *@

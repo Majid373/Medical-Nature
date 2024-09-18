@@ -1,0 +1,134 @@
+﻿@page "{id}"
+@model WebSite.Areas.Admin.Pages.Users.DoctorDetailModel
+@{
+    ViewData["Title"] = "Add new user";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">ویرایش کاربر</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="User.Id" />
+            @*             <input type="hidden" asp-for="EditUser.AvatarName" /> *@
+            <div class="col-md-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        اطلاعات کاربر
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="panel-body ">
+                            <img id="imgAvatar" class="thumbnail mx-auto" style="height:180px; width:180px" src="~/UserAvatar/@Model.User.ImageName" />
+
+                        </div>
+                        <div class="form-group">
+                            <label>نام و نام خانوادگی :</label>
+                            <label class="text-success">@Model.User.FullName</label>
+                        </div>
+                        <div class="form-group">
+                            <label> ایمیل / نام کاربری :</label>
+                            <label class="text-success">@Model.User.Email</label>
+                        </div>
+                        <div class="form-group">
+                            <label> تخصص :</label>
+                            <label class="text-success">@Model.User.Expertise</label>
+                        </div>
+                        <div class="form-group">
+                            <label>  تاریخ ثبت نام :</label>
+                            <label class="text-success">@Model.User.RegisterDate</label>
+                        </div>
+
+                        <div class="form-group">
+                            <label>وضعیت حساب کاربری :</label>
+                            <label class="text-success">
+                                @if (Model.User.EmailConfirmed)
+                                {
+                                    <p class="text-success">فعال</p>
+                                }
+                                else
+                                {
+                                    <p class="text-danger">غیر فعال</p>
+                                }
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>تایید مدرک تحصیلی :</label>
+                            <label class="text-success">
+                                @if (Model.User.IsDoctor)
+                                {
+                                    <p class="text-success">تایید شده</p>
+                                }
+                                else
+                                {
+                                    <p class="text-danger">تایید نشده</p>
+                                }
+                            </label>
+                        </div>
+
+                        <div class=" d-flex justify-content-cente">
+
+                  
+
+
+                            <a href="/Admin/Users/EditUser/@Model.User.Id" class="btn btn-warning btn-sm col-md-3 ">
+                                ویرایش
+                            </a>
+
+
+                            <a href="/Admin/Users/DeleteUser/@Model.User.Id" class="btn btn-danger btn-sm col-md-3">
+                                حذف
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        تصویر مدرک تحصیلی
+                    </div>
+                    <div class="panel-body">
+                        <img id="imgAvatar" class="thumbnail" src="~/DegreeOfEducation/@Model.User.DegreeOfEducation" />
+
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+@section Scripts
+{
+    @*  <script>
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgAvatar').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#EditUserViewModel_UserAvatar").change(function () {
+            readURL(this);
+        });
+    </script> *@
+}

@@ -1,0 +1,54 @@
+﻿@model Domain.Appointments.Appointment
+@{
+    ViewData["Title"] = "EditAppointment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs">
+    <ul>
+        <li class="breadcrumb-item">خانه</li>
+        <li class="breadcrumb-item before">پنل کاربری</li>
+    </ul>
+</div>
+<section class="container">
+    <div class="profile-page">
+        <partial name="_sideProfile"></partial>
+        <div class="profile-body">
+            <div class="profile-body-user-informatio">
+                <header class="profile-header-main">
+                    <h2 class="profile-header">افزودن نوبت</h2>
+                </header>
+                <div class="new-apointment">
+
+                    <form method="post" asp-action="EditAppointment" class="new-apointment-form">
+
+                        <input type="hidden" asp-for="@Model.Id" name="name" value="@Model.Id" />
+
+                        <div>
+                            <label class="login-lable">نوع نوبت :</label>
+                            <select asp-for="@Model.Type" class="apointment-select" type="text">
+                                <option class="appointment-option" value="0">متنی</option>
+                                <option class="appointment-option" value="1">تلفنی</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="login-lable">تاریخ :</label>
+                            <input type="text" asp-for="@Model.Date" class="apointment-input" placeholder="year/month/day" />
+                        </div>
+                        <div>
+                            <label class="login-lable">زمان :</label>
+                            <input type="text" asp-for="@Model.Time" class="apointment-input" />
+                        </div>
+                        <div>
+                            <label class="login-lable">قیمت :</label>
+                            <input type="number" asp-for="@Model.Price" class="apointment-input" />
+                        </div>
+                        <input type="submit" value="ثبت" class="new-apointment-btn" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+

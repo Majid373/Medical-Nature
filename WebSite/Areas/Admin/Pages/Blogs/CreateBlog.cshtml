@@ -1,0 +1,56 @@
+﻿@page
+@model WebSite.Areas.Admin.Pages.Blogs.CreateBlogModel
+@{
+    ViewData["Title"] = "Add new blog";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="createBlog.BlogImageName" />
+            <div class="col-md-12">
+                <h2>اطلاعات دوره</h2>
+                <hr />
+                <div class=" form-group">
+                    <label>عنوان </label>
+                    <input type="text" asp-for="createBlog.Title" class="form-control">
+                    <span asp-validation-for="createBlog.Title"></span>
+                </div>
+                <div class= form-group">
+                    <label>دسته بندی</label>
+                    <input type="text" asp-for="createBlog.Category" class="form-control">
+                    <span asp-validation-for="createBlog.Category"></span>
+                </div>
+                <div class="form-group ">
+                    <label>انتخاب تصویر</label>
+                    <input asp-for="createBlog.BlogImgUrl" type="file"  id="imgCourseUp">
+                </div>
+                <div class="form-group ">
+                    <label>شرح </label>
+                    <textarea class="form-control" asp-for="createBlog.Description" rows="10"></textarea>
+                    <span asp-validation-for="createBlog.Description"></span>
+                </div>
+                       <div class="form-group ">
+                    <label>خلاصه</label>
+                    <input class="form-control" asp-for="createBlog.Summary" rows="10"></input>
+                    <span asp-validation-for="createBlog.Summary"></span>
+                </div>
+
+                <input type="submit" value="ذخیره اطلاعات" class="btn btn-success col-md-12" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts
+{
+        <script src="https://cdn.ckeditor.com/4.13.0/standard-all/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('createBlog_Description', {
+            language: 'fa',
+            contentsLangDirection: 'rtl',
+            height: 270,
+        });
+    </script>
+}

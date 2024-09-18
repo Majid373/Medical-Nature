@@ -1,0 +1,73 @@
+﻿@model WebSite.Models.ViewModels.User.EditProfileViewModel
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@inject IAuthorizationService _authorization;
+@{
+    ViewData["Title"] = "EditProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="breadcrumbs">
+    <ul>
+        <li class="breadcrumb-item">خانه</li>
+        <li class="breadcrumb-item before">پنل کاربری</li>
+    </ul>
+</div>
+<section class="container">
+    <div class="profile-page">
+        <partial name="_sideProfile"></partial>
+
+        <div class="profile-body">
+            <div class="profile-body-user-informatio">
+                <header class="profile-header-main">
+                    <h2 class="profile-header">ویرایش حساب کاربری</h2>
+                </header>
+                <div class="account-information">
+                    <form method="post" asp-action="EditProfile" enctype="multipart/form-data">
+
+                        <input type="hidden" asp-for="@Model.UserAvatar" />
+                        <input type="hidden" asp-for="@Model.Id" />
+
+                        <div>
+                            <label class="login-lable" for="">نام و نام خانوادگی :</label>
+                            <input type="text" asp-for="@Model.FullName" class="login-input" />
+                        </div>
+                        @if (_authorization.AuthorizeAsync(User, "Doctor").Result.Succeeded)
+                        {
+                            <div>
+                                <label class="login-lable" for="">تخصص  :</label>
+                                <input type="text" asp-for="@Model.Expertise" class="login-input" />
+                            </div>
+
+                            <div>
+                                <label class="login-lable" for="">قیمت مشاوره متنی :</label>
+                                <input type="text" asp-for="@Model.PriceTextual" class="login-input" />
+                            </div> 
+
+                            <div>
+                                <label class="login-lable" for="">قیمت مشاوره تلفنی :</label>
+                                <input type="text" asp-for="@Model.PriceByPhone" class="login-input" />
+                            </div>
+                        }
+                        <div>
+                            <label class="login-lable" for=""> تصویر پروفایل :</label>
+                            <input type="file" asp-for="@Model.IamgeUrl" class="" />
+                        </div>
+                        <input type="submit" value="ورود" class="login-body-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+

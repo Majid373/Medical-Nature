@@ -1,0 +1,35 @@
+﻿@using Application.Convertors
+@using Domain.Users
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<User> _usermanager;
+@inject IAuthorizationService _authorization;
+@* @model WebSite.Models.ViewModels.User.ProfileViewModel *@
+@{
+    string userId = _usermanager.GetUserId(User);
+    User user = _usermanager.FindByIdAsync(userId).Result;
+}
+
+<aside class="profile-aside">
+    <div class="aside-avatar">
+        <img class="aside-avatar-img"
+             src="/UserAvatar/@user.ImageName"
+             alt="avatar" />
+        <p class="aside-user-name">@user.FullName</p>
+        <p class="aside-user-register-date">عضویت : @user.RegisterDate.ToShamsi()</p>
+    </div>
+    <div class="aside-operation">
+        <header class="profile-header-main">
+            <h2 class="profile-header">میز کار</h2>
+        </header>
+
+        <a asp-action="Profile" asp-controller="Account" class="aside-operation-link">مشاهده حساب کاربری</a>
+        <a asp-action="EditProfile" asp-controller="Account" class="aside-operation-link">ویرایش حساب کاربری</a>
+        @if (_authorization.AuthorizeAsync(User, "Doctor").Result.Succeeded)
+        {
+            <a asp-action="Appointment" asp-controller="Account" class="aside-operation-link">لیست نوبت ها</a>
+            <a asp-action="AddAppointment" asp-controller="Account" class="aside-operation-link">افزودن نوبت </a>
+        }
+        <a asp-action="LogOute" asp-controller="Account" class="aside-operation-link">خروج از حساب کاربری</a>
+    </div>
+</aside>

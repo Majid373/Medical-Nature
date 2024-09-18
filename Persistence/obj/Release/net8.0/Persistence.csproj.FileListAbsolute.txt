@@ -1,0 +1,38 @@
+D:\Medical Nature\MedicalNature\Persistence\bin\Release\net8.0\Persistence.deps.json
+D:\Medical Nature\MedicalNature\Persistence\bin\Release\net8.0\Persistence.runtimeconfig.json
+D:\Medical Nature\MedicalNature\Persistence\bin\Release\net8.0\Persistence.dll
+D:\Medical Nature\MedicalNature\Persistence\bin\Release\net8.0\Persistence.pdb
+D:\Medical Nature\MedicalNature\Persistence\bin\Release\net8.0\Application.dll
+D:\Medical Nature\MedicalNature\Persistence\bin\Release\net8.0\Domain.dll
+D:\Medical Nature\MedicalNature\Persistence\bin\Release\net8.0\Application.pdb
+D:\Medical Nature\MedicalNature\Persistence\bin\Release\net8.0\Domain.pdb
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persistence.csproj.AssemblyReference.cache
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persistence.AssemblyInfoInputs.cache
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persistence.AssemblyInfo.cs
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persiste.61C28332.Up2Date
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persistence.dll
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\refint\Persistence.dll
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persistence.pdb
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\Persistence.genruntimeconfig.cache
+D:\Medical Nature\MedicalNature\Persistence\obj\Release\net8.0\ref\Persistence.dll
+D:\Programing\MedicalNatureOrg\Persistence\bin\Release\net8.0\Persistence.deps.json
+D:\Programing\MedicalNatureOrg\Persistence\bin\Release\net8.0\Persistence.runtimeconfig.json
+D:\Programing\MedicalNatureOrg\Persistence\bin\Release\net8.0\Persistence.dll
+D:\Programing\MedicalNatureOrg\Persistence\bin\Release\net8.0\Persistence.pdb
+D:\Programing\MedicalNatureOrg\Persistence\bin\Release\net8.0\Application.dll
+D:\Programing\MedicalNatureOrg\Persistence\bin\Release\net8.0\Domain.dll
+D:\Programing\MedicalNatureOrg\Persistence\bin\Release\net8.0\Application.pdb
+D:\Programing\MedicalNatureOrg\Persistence\bin\Release\net8.0\Domain.pdb
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persistence.csproj.AssemblyReference.cache
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persistence.AssemblyInfoInputs.cache
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persistence.AssemblyInfo.cs
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persiste.61C28332.Up2Date
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persistence.dll
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\refint\Persistence.dll
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persistence.pdb
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\Persistence.genruntimeconfig.cache
+D:\Programing\MedicalNatureOrg\Persistence\obj\Release\net8.0\ref\Persistence.dll

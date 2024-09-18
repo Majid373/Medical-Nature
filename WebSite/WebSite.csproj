@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\bordered-pulled.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\core.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\fixed-width.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\font-awesome.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\icons.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\larger.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\list.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\mixins.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\path.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\rotated-flipped.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\spinning.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\stacked.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\less\variables.less" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\font-awesome.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_core.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_fixed-width.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_icons.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_larger.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_list.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_mixins.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_path.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_spinning.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_stacked.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\font-awesome\scss\_variables.scss" />
+    <None Include="wwwroot\TemplateAdminPanel\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\TemplateAdminPanel\js\bootstrap.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\bootstrap.min.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\demo\dashboard-demo.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\demo\flot-demo.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\demo\morris-demo.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\jquery-1.10.2.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\dataTables\dataTables.bootstrap.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\dataTables\jquery.dataTables.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\flot\excanvas.min.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\flot\jquery.flot.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\flot\jquery.flot.pie.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\flot\jquery.flot.resize.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\flot\jquery.flot.tooltip.min.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\metisMenu\jquery.metisMenu.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\morris\morris.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\plugins\morris\raphael-2.1.0.min.js" />
+    <None Include="wwwroot\TemplateAdminPanel\js\sb-admin.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+    <PackageReference Include="ZarinPalSandbox" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Persistence\Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\ViewModels\Blogs\" />
+  </ItemGroup>
+
+</Project>

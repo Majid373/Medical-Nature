@@ -1,0 +1,24 @@
+D:\Medical Nature\MedicalNature\Domain\bin\Release\net8.0\Domain.deps.json
+D:\Medical Nature\MedicalNature\Domain\bin\Release\net8.0\Domain.dll
+D:\Medical Nature\MedicalNature\Domain\bin\Release\net8.0\Domain.pdb
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\Domain.AssemblyInfo.cs
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\Domain.dll
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\refint\Domain.dll
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\Domain.pdb
+D:\Medical Nature\MedicalNature\Domain\obj\Release\net8.0\ref\Domain.dll
+D:\Programing\MedicalNatureOrg\Domain\bin\Release\net8.0\Domain.deps.json
+D:\Programing\MedicalNatureOrg\Domain\bin\Release\net8.0\Domain.dll
+D:\Programing\MedicalNatureOrg\Domain\bin\Release\net8.0\Domain.pdb
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\Domain.AssemblyInfo.cs
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\Domain.dll
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\refint\Domain.dll
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\Domain.pdb
+D:\Programing\MedicalNatureOrg\Domain\obj\Release\net8.0\ref\Domain.dll

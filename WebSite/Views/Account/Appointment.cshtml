@@ -1,0 +1,92 @@
+﻿@using Application.Convertors
+@model List<Domain.Appointments.Appointment>
+@{
+    ViewData["Title"] = "Appointment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateOnly currentDate = Application.Convertors.DateConvertor.ConvertToShamsi(DateTime.Now);
+    TimeOnly currentTime = TimeOnly.FromDateTime(DateTime.Now);
+}
+
+<div class="breadcrumbs">
+    <ul>
+        <li class="breadcrumb-item">خانه</li>
+        <li class="breadcrumb-item before">پنل کاربری</li>
+    </ul>
+</div>
+<section class="container">
+    <div class="profile-page">
+        <partial name="_sideProfile"></partial>
+
+        <div class="profile-body">
+
+            <div class="apointment-table">
+                <header class="profile-header-main">
+                    <h2 class="profile-header">نوبت ها</h2>
+                </header>
+                <table class="table-turns">
+                    <tr>
+                        <th>تاریخ</th>
+                        <th>زمان</th>
+                        <th>نوع</th>
+                        <th>وضعیت</th>
+                        <th>عملیات</th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Date.FormattedDate()</td>
+                            <td>@item.Time.ToString("HH:mm")</td>
+                            <td>
+                                @if (item.Type == 0)
+                                {
+                                    <p>متنی</p>
+                                }
+                                else
+                                {
+                                    <p>تلفنی</p>
+                                }
+
+                            </td>
+                            <td>
+                                @if (item.IsReserved)
+                                {
+                                    <p>رزرو شده</p>
+                                }
+                                else if (!item.IsReserved && item.Date < currentDate)
+                                {
+                                    <p>منقضی شده</p>
+                                }
+                                else if (!item.IsReserved)
+                                {
+                                    <p> خالی</p>
+                                }
+                       
+                            </td>
+                            <td>
+
+                                @if (!item.IsReserved)
+                                {
+                                    <a asp-action="EditAppointment" asp-controller="Account" asp-route-id="@item.Id" class="appointment-table-btn">ویرایش </a>
+
+                                    <a asp-action="DeleteAppointment" asp-controller="Account" asp-route-id="@item.Id" class="appointment-table-btn">حذف </a>
+                                }
+                                else if (item.IsReserved)
+                                {
+
+                                    <a asp-action="detailAppointment" asp-controller="Account" asp-route-sickId="@item.SickId" class="appointment-table-btn">جزئیات </a>
+
+                                }
+                     
+
+                            </td>
+                        </tr>
+                    }
+
+
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+

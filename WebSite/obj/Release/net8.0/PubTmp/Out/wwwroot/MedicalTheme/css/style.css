@@ -1,0 +1,1971 @@
+/*Font Section */
+@font-face {
+    font-family: Vazir;
+    src: url("font/Vazir.eot");
+    src: url("font/Vazir.eot?#iefix") format("embedded-opentype"), url("font/Vazir.woff2") format("woff2"), url("font/Vazir.woff") format("woff"), url("font/Vazir.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("font/Vazir-Bold.eot");
+    src: url("font/Vazir-Bold.eot?#iefix") format("embedded-opentype"), url("font/Vazir-Bold.woff2") format("woff2"), url("font/Vazir-Bold.woff") format("woff"), url("font/Vazir-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("font/Vazir-Black.eot");
+    src: url("font/Vazir-Black.eot?#iefix") format("embedded-opentype"), url("font/Vazir-Black.woff2") format("woff2"), url("font/Vazir-Black.woff") format("woff"), url("font/Vazir-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("font/Vazir-Medium.eot");
+    src: url("font/Vazir-Medium.eot?#iefix") format("embedded-opentype"), url("font/Vazir-Medium.woff2") format("woff2"), url("font/Vazir-Medium.woff") format("woff"), url("font/Vazir-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("font/Vazir-Light.eot");
+    src: url("font/Vazir-Light.eot?#iefix") format("embedded-opentype"), url("font/Vazir-Light.woff2") format("woff2"), url("font/Vazir-Light.woff") format("woff"), url("font/Vazir-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("font/Vazir-Thin.eot");
+    src: url("font/Vazir-Thin.eot?#iefix") format("embedded-opentype"), url("font/Vazir-Thin.woff2") format("woff2"), url("font/Vazir-Thin.woff") format("woff"), url("font/Vazir-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+/*---------------------------------------------------------------------*/
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem); /*rotate(0deg)*/
+    }
+    /* 60% {
+      transform: rotate(180deg);
+    } */
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+/* ------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Vazir";
+    font-weight: 500;
+    font-size: 1.6rem;
+    background-color: #f8fafc;
+    overflow-x: hidden;
+}
+
+.header-section {
+    background-color: #fff;
+    /* border-bottom: 1px solid #c69963; */
+    box-shadow: 0 5px 5px #00000034;
+}
+
+.header {
+    max-width: 128rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+}
+
+.logo {
+    height: 8rem;
+    width: 15rem;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 8px;
+    border-radius: 8px;
+    color: rgba(0, 166, 147);
+    transition: all 0.5s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #fff;
+    background-color: #28b485;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: rgba(0, 166, 147);
+    /* background-color: #6b9bd1; */
+    font-size: 1.6rem;
+    padding: 0.8rem 1.6rem;
+    border: 1px solid rgba(0, 166, 147);
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+    .login-btn:hover {
+        color: #fff;
+        border: 1px solid #28b485;
+        background-color: #28b485;
+    }
+
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+}
+
+.close-icon {
+    display: none;
+}
+
+.search-area {
+    max-width: 152rem;
+    margin: 0 auto;
+    /* padding: 0 20rem; */
+    background-image: linear-gradient( to right, rgba(40, 180, 131, 0.8), rgba(126, 213, 111, 0.8) ), url(../images/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38.4rem;
+    /* height: 70vh; */
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-area-box {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+.search-area-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+}
+
+.search-area-main {
+    color: #fff;
+    font-size: 3.6rem;
+}
+
+.search-area-sub {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.search-area-input-box {
+    margin-bottom: 1.6rem;
+    position: relative;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    width: 50rem;
+}
+
+.search-area-input {
+    height: 5rem;
+    width: 50rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #f8fafc;
+    position: relative;
+}
+
+    .search-area-input::placeholder {
+        font-family: "vazir";
+        font-weight: 500;
+        color: #adb5bd;
+    }
+
+    .search-area-input:focus {
+        /* outline: none; */
+        /* box-shadow: 0 0 0 0.3rem #4263eb; */
+        outline: solid 2px #ffffff33;
+        outline-offset: 2px;
+    }
+
+.search-area-button {
+    position: absolute;
+    left: 0;
+    background-color: rgba(0, 166, 147);
+    height: 5rem;
+    width: 5.8rem;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-area-icon {
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+}
+
+.section {
+    max-width: 128rem;
+    margin: 8rem auto;
+}
+
+.title {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.title-icon {
+    height: 4rem;
+    width: 4rem;
+    background-color: #28b485;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-icon {
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+}
+
+.title-text {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.specialties-body {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.specialties-main {
+    width: 17rem;
+    height: 15.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: #fff;
+    border-radius: 35px;
+}
+
+    .specialties-main a {
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+    }
+
+.specialties-main-img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.specialties-main-name {
+    display: block;
+    font-size: 1.8rem;
+}
+
+
+
+.online-doctors {
+    display: flex;
+    justify-content:space-around;
+    max-width:100%;
+}
+
+.online-doctor {
+    height: 27rem;
+    width: 22.8rem;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.online-doctor-img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.online-doctor-name {
+    display: block;
+    font-size: 1.8rem;
+}
+
+.online-doctor-expertise {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.get-advice-btn {
+    color: #28b485;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #28b485;
+    border-radius: 10px;
+    width: 20rem;
+    height: 5rem;
+    transition: all 0.5s;
+}
+
+    .get-advice-btn:hover {
+        color: #fff;
+        border: 1px solid #28b485;
+        background-color: #28b485;
+    }
+
+.register-new-doctor {
+    max-width: 128rem;
+    margin: 8rem auto;
+    height: 19.2rem;
+    background-image: linear-gradient( to right, rgba(40, 180, 131, 0.8), rgba(126, 213, 111, 0.8) ), url(../images/home-bg2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 0 15rem;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.register-new-doctor-main {
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 0.09rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.register-new-doctor-sub {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.register-new-doctor-btn {
+    background-color: #ffffffcf;
+    display: block;
+    width: 16rem;
+    height: 5.6rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.6rem;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+}
+
+.comments {
+    display: flex;
+    gap: 3rem;
+}
+
+.comment {
+    max-width: 63.2rem;
+    height: 22.4rem;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 3.2rem;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-link:link,
+.comment-link:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.comment-link:hover,
+.comment-link:active {
+    color: #333;
+}
+
+.doctor-information {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.doctor-img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.doctor-name {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.doctor-expertise {
+    display: block;
+    font-size: 1.6rem;
+}
+
+.qutation {
+    color: #868e96;
+    height: 3.8rem;
+    width: 5.2rem;
+}
+
+.comment-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #868e96;
+    margin-top: 1.6rem;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog {
+    max-width: 31rem;
+    height: 40.4rem;
+    margin-top: 1.6rem;
+    background-color: #fff;
+    padding: 1.6rem;
+    border-radius: 15px;
+}
+
+.blog-img {
+    /* width: 27.6rem;
+  height: 20rem; */
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.blog-title {
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+    height: 3.8rem;
+}
+
+.blog-summary {
+    font-size: 1.6rem;
+    font-weight: 300;
+    height: 9rem;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 2px dotted #ced4da;
+}
+
+.blog-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-date {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.blog-btn:link,
+.blog-btn:active {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.blog-icon {
+    width: 3rem;
+    height: 2rem;
+    color: #000000;
+}
+
+.footer {
+    background-color: #101d2c;
+}
+
+.footer-logo {
+    height: 8rem;
+    width: 15rem;
+}
+
+.description {
+    max-width: 128rem;
+    margin: 8rem auto;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #495057;
+}
+
+.description-text {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.description-right-side {
+    width: 63.2rem;
+    height: 16.2rem;
+}
+
+.certification {
+    display: flex;
+}
+
+.footer-links {
+    max-width: 128rem;
+    margin: 8rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+}
+
+.footer-main-nav {
+    margin-bottom: 3rem;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 1.6rem;
+}
+
+.footer-nav {
+    list-style: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.social {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.social-icon {
+    color: #fff;
+    height: 2.4rem;
+    width: 2.4rem;
+    transition: 0.5s;
+}
+
+    .social-icon:hover {
+        color: #7539f6;
+        color: #28b485;
+    }
+
+.copyRight {
+    background-color: #0f1824;
+    text-align: center;
+    height: 5.2rem;
+}
+
+.copyRight-text {
+    color: #fff;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+
+/* --------------- login page styles ------------------*/
+.login-section {
+    margin-top: 13rem;
+}
+
+.login-body {
+    max-width: 110rem;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.login-img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 50%;
+}
+
+.login-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 8rem 0 8rem;
+}
+
+.login-title {
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin: 1.6rem 0;
+}
+
+.login-lable {
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 0.8rem 0.4rem;
+}
+
+.login-input {
+    width: 100%;
+    height: 4.6rem;
+    padding: 0 1.6rem;
+    margin: 0.8rem 0;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}
+
+    .login-input:focus {
+        outline: 2px solid #ced4da;
+        outline-offset: 3px;
+    }
+
+    .login-input[value] {
+        font-family: "vazir";
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+
+.login-body-btn {
+    width: 100%;
+    height: 4.8rem;
+    margin: 1.6rem 0;
+    padding: 1rem 0;
+    display: block;
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(41 37 36);
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: none;
+}
+
+    .login-body-btn[value] {
+        font-family: "vazir";
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+
+    .login-body-btn:hover {
+        background-color: rgb(28 25 23);
+    }
+
+.IsDoctor {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}
+
+.IsDoctor-Child {
+    display: flex;
+}
+
+.IsDoctor-Child-File {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-password-link {
+    margin: 1.6rem 0;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #333433;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    margin: 1.6rem 0;
+}
+
+.bar {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background: #aaa;
+}
+
+.or span {
+    padding: 0 0.8rem;
+}
+
+.registe-link {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    color: #333433;
+    /*    margin-bottom: 2rem;*/
+}
+
+.forgot-password-text {
+    font-size: 1.4rem;
+    color: #495057;
+}
+
+.register-footer {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+    .register-footer span {
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+
+.forgot-password {
+    margin-top: 10rem;
+}
+/* -------------List Of Docctor Page------------------- */
+.breadcrumbs {
+    max-width: 128rem;
+    margin: 1.6rem auto;
+    padding: 1.2rem;
+    background-color: #fff;
+    border-radius: 24px;
+}
+
+    .breadcrumbs ul {
+        list-style: none;
+        display: flex;
+        gap: 14px;
+    }
+
+.breadcrumbs-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.before::before {
+    padding: 0 5px;
+    font-size: 1.4rem;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+.breadcrumb-item {
+    font-size: 1.4rem;
+    color: #26292c;
+}
+
+.container {
+    margin: 2rem auto;
+}
+
+.list-doctor-page {
+    max-width: 128rem;
+    margin: 2rem auto;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.list-doctor-aside {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+    width: 30.8rem;
+    border-radius: 24px;
+    padding: 1.6rem;
+}
+
+.list-doctor-aside-header {
+    font-family: "vazir";
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.list-doctor-aside-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-primary {
+    background-color: rgb(231 229 228);
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    margin-bottom: 1.6rem;
+    border-radius: 12px;
+}
+
+.lable-primary {
+    display: block;
+    user-select: none;
+    font-size: 1.2rem;
+    color: #1f2937;
+    padding: 0.8rem 0.4rem;
+    font-size: 1.2rem;
+}
+
+.input-primary {
+    width: 100%;
+    height: 4.8rem;
+    font-size: 1.6rem;
+    padding: 1.4rem;
+    border-width: 1px;
+    border-color: #1f293733;
+    border-radius: 15px;
+}
+
+    /* .list-doctor-aside-input,
+#select-city {
+  width: 100%;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  padding: 1.4rem;
+  border-width: 1px;
+  border-color: #1f293733;
+  border-radius: 15px;
+} */
+
+    .input-primary:focus,
+    #select-city:focus {
+        outline: solid 2px #1f293733;
+        outline-offset: 2px;
+    }
+
+    .input-primary::placeholder {
+        font-family: "vazir";
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #adb5bd;
+    }
+
+.list-doctor-aside-btn {
+    width: 100%;
+    height: 4.8rem;
+    font-family: "Vazir";
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 1.4rem 0;
+    color: #fff;
+    background-color: rgb(41 37 36);
+    border: none;
+    border-radius: 12px;
+}
+
+    .list-doctor-aside-btn:hover {
+        background-color: rgb(28 25 23);
+    }
+
+.list-doctor-section {
+    background-color: #fff;
+    width: 95.6rem;
+    height: auto;
+    padding: 3.2rem;
+    border-radius: 24px;
+    margin-bottom: 1rem;
+}
+
+.doctor-box-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctor-box-header-img {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.doctor-box-avatar {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.doctor-box-name {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.doctor-box-expertise {
+    font-size: 1.4rem;
+    color: rgb(107 114 128);
+}
+
+.doctor-box-header-rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.doctor-box-header-rate-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.rate-icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    color: rgb(234 179 8);
+}
+
+.rate-value {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgb(234 179 8);
+}
+
+.suggestion-icon {
+    height: 1.9rem;
+    width: 1.9rem;
+    color: rgb(34 197 94);
+}
+
+.suggestion-value {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgb(34 197 94);
+}
+
+.comment-number {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.doctor-box-body {
+    background-color: rgb(249 250 251);
+    margin: 2.4rem 0;
+    padding: 1.6rem;
+    border-radius: 16px;
+}
+
+.doctor-box-body-text {
+    font-size: 1.4rem;
+}
+
+    .doctor-box-body-text span {
+        font-weight: 900;
+    }
+
+.doctor-box-body-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.doctor-box-body-boxWay {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.doctor-box-body-way {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.4rem;
+}
+
+.doctor-box-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctor-box-footer-text {
+    font-size: 1.4rem;
+}
+
+    .doctor-box-footer-text span {
+        font-weight: 900;
+    }
+
+.doctor-box-footer-btn {
+    font-size: 1.4rem;
+    font-family: "vazir";
+    font-weight: 500;
+    /* background-color: #d7c49eff; */
+    background-color: #fff;
+    color: #28b485;
+    border: 1px solid #28b485;
+    border-radius: 12px;
+    padding: 0.8rem 2.4rem;
+    transition: all 0.5s;
+    text-decoration: none;
+    text-align:center;
+}
+
+    .doctor-box-footer-btn:hover {
+        color: #fff;
+        background-color: #28b485;
+    }
+/* ------------blog-------------- */
+
+.blog-body {
+    margin: 0 31rem;
+    margin-bottom: 2rem;
+}
+/* -----------reservation---------------- */
+.reservation-page {
+    display: flex;
+    gap: 1.6rem;
+    max-width: 128rem;
+    margin: 2rem auto;
+}
+
+.reservation-aside {
+    width: 41.6rem;
+    height: 46rem;
+    padding: 1.6rem;
+    background-color: #fff;
+    border-radius: 24px;
+}
+
+.reservation-aside-ways {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.reservation-aside-ways-header {
+    font-size: 1.4rem;
+}
+
+.reservation-aside-ways-detail {
+    margin-top: 1.6rem;
+}
+
+.reservation-aside-ways-body {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.reservation-aside-ways-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.reservation-aside-ways-body-detail {
+    font-size: 1.2rem;
+}
+
+.reservation-aside-ways-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservation-aside-ways-price {
+    font-size: 1.4rem;
+}
+
+.reservation-aside-link:link,
+.reservation-aside-link:visited {
+    text-decoration: none;
+    color: #28b485;
+    font-size: 1.4rem;
+    font-weight: 900;
+    transition: all 1s;
+}
+
+.reservation-aside-link:hover,
+.reservation-aside-link:active {
+    text-decoration: none;
+    color: #28b485;
+    border-bottom: 1px solid #28b485;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.reservation-aside-ways-footer {
+    margin-top: 1.6rem;
+}
+
+.reservation-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.dotor-information {
+    display: flex;
+    gap: 10rem;
+    width: 84.8rem;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 3.2rem;
+}
+
+.dotor-information-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dotor-information-img {
+    width: 11.2rem;
+    height: 11.2rem;
+    border-radius: 50%;
+}
+
+.dotor-information-name {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.dotor-information-expertise {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.dotor-information-detail-ways {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.doctor-information-ways-item {
+    width: 12rem;
+    height: auto;
+    padding: 2rem;
+    background-color: rgb(249 250 251);
+    border-radius: 1.6rem;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.doctor-information-ways-item-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.doctor-information-ways-item p {
+    font-size: 1.4rem;
+}
+
+.dotor-information-detail-address {
+    margin-top: 1.6rem;
+}
+
+    .dotor-information-detail-address p span {
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+
+    .dotor-information-detail-address p {
+        font-size: 1.4rem;
+    }
+
+.about-doctor {
+    border-radius: 24px;
+    background-color: #fff;
+    width: 84.8rem;
+    padding: 2.4rem;
+}
+
+.about-doctor-detail {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2;
+}
+
+    .about-doctor-detail:last-child {
+        margin-top: 1.6rem;
+    }
+
+.doctor-specialties {
+    border-radius: 24px;
+    background-color: #fff;
+    width: 84.8rem;
+    padding: 2.4rem;
+}
+
+.doctor-specialties-tag-box {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.doctor-specialties-tag {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000000;
+    padding: 0.8rem 1.6rem;
+    background-color: rgb(243 244 246);
+    border-radius: 24px;
+}
+
+.q-and-a,
+.comment-user {
+    border-radius: 24px;
+    background-color: #fff;
+    width: 84.8rem;
+    padding: 2.4rem;
+}
+
+.q-and-a-form {
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .q-and-a-form label {
+  font-size: 1.2rem;
+  padding: 0.8rem 0.4rem;
+  display: block;
+} */
+
+/* .q-and-a-form input {
+  border-radius: 12px;
+  width: 100%;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  padding-right: 1.6rem;
+  border: 1px solid hsl(215deg 28% 17% / 20%);
+  background-color: hsl(0 0% 100% / 1);
+} */
+
+/* .q-and-a-form input:focus {
+  outline: 2px solid hsl(215deg 28% 17% / 20%);
+  outline-offset: 2px;
+} */
+
+.textarea-primary {
+    border-radius: 12px;
+    width: 100%;
+    height: 9.6rem;
+    font-size: 1.6rem;
+    padding-right: 1.6rem;
+    padding-top: 1.4rem;
+    border: 1px solid hsl(215deg 28% 17% / 20%);
+    background-color: hsl(0 0% 100% / 1);
+}
+
+    .textarea-primary::placeholder {
+        font-family: "vazir";
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #adb5bd;
+    }
+
+    .textarea-primary:focus {
+        outline: 2px solid hsl(215deg 28% 17% / 20%);
+        outline-offset: 2px;
+    }
+
+.q-and-a-form-textarea {
+    grid-column: 1/-1;
+}
+
+.q-and-a-form-btn {
+    font-size: 1.6rem;
+    font-family: "vazir";
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(41 37 36);
+    border: 1px solid rgb(41 37 36);
+    border-radius: 12px;
+    width: 14.4rem;
+    height: 4.58rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+    .q-and-a-form-btn:hover {
+        background-color: rgb(28 25 23);
+        border-color: rgb(28 25 23);
+    }
+/* -------------blog------------------- */
+.blog-page-items {
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 128rem;
+    margin: 0 auto;
+}
+/* ------------aboutUs------------------ */
+.about-us {
+    max-width: 128rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 2.4rem;
+}
+
+    .about-us img {
+        height: 39.2rem;
+        width: 58.58rem;
+        border-radius: 16px;
+    }
+
+.about-us-detail {
+    display: flex;
+    gap: 5.6rem;
+    padding-top: 3.2rem;
+}
+
+.about-us-header2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 1.6rem;
+}
+
+.about-us-description {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2;
+}
+
+    .about-us-description:last-child {
+        margin-top: 1.6rem;
+    }
+
+/* ----------contactUs----------- */
+.contact-us-body {
+    display: flex;
+    gap: 5.6rem;
+    padding-top: 3.2rem;
+}
+
+.contact-us-body-form {
+    width: 61.6rem;
+}
+
+    .contact-us-body-form p {
+        margin-bottom: 1.6rem;
+        font-size: 1.4rem;
+    }
+/* 
+.contact-us-body label {
+  font-size: 1.2rem;
+  padding: 0.8rem 0.4rem;
+  display: block;
+}
+
+.contact-us-body input {
+  border-radius: 12px;
+  width: 100%;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  padding-right: 1.6rem;
+  border: 1px solid hsl(215deg 28% 17% / 20%);
+  background-color: hsl(0 0% 100% / 1);
+}
+
+.contact-us-body input:focus {
+  outline: 2px solid hsl(215deg 28% 17% / 20%);
+  outline-offset: 2px;
+}
+
+.contact-us-body textarea {
+  border-radius: 12px;
+  width: 100%;
+  height: 9.6rem;
+  font-size: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 1.6rem;
+  border: 1px solid hsl(215deg 28% 17% / 20%);
+  background-color: hsl(0 0% 100% / 1);
+}
+
+.contact-us-body textarea:focus {
+  outline: 2px solid hsl(215deg 28% 17% / 20%);
+  outline-offset: 2px;
+} */
+
+.contact-us-body-form-btn {
+    margin: 1.2rem 0;
+}
+
+.about-us-adress span {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-left: 0.8rem;
+}
+
+.about-us-adress {
+    font-size: 1.4rem;
+}
+
+/* ---------------- blog detail ----------- */
+.blog-detail-page {
+    max-width: 128rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.blog-detail-main {
+    background-color: #fff;
+    padding: 1.6rem;
+    border-radius: 2.4rem;
+    width: 95.6rem;
+}
+
+.blog-date {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.blog-detail-date-box {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 1.2rem;
+}
+
+.blog-detail-date-box-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.blog-detail-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.blog-detail-main-img {
+    width: 92.4rem;
+    height: 52rem;
+    border-radius: 1.6rem;
+}
+
+.blog-detail-main-description p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2;
+    margin-top: 1.6rem;
+}
+
+.blog-detail-main-comment {
+    margin-top: 1.6rem;
+}
+
+    .blog-detail-main-comment p {
+        color: rgb(30 41 59);
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+
+.blog-detail-main-username {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 0.8rem;
+}
+
+.blog-detail-main-btn {
+    width: 9.7rem;
+    height: 4.8rem;
+    font-family: "Vazir";
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 1.2rem 0 0 0;
+    color: #fff;
+    background-color: rgb(41 37 36);
+    border: none;
+    border-radius: 12px;
+}
+
+.blog-detail-aside {
+    width: 30.8rem;
+    height: 41.2rem;
+    border-radius: 2.4rem;
+    padding: 1.6rem;
+    background-color: #fff;
+}
+
+.blog-detail-common {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin: 1.6rem 0;
+}
+
+.blog-detail-common-img {
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+}
+
+.blog-detail-common-title {
+    font-size: 1.4rem;
+}
+
+/*------------------------------*/
+.asp-validation {
+    font-size: 1.3rem;
+}
+/* ------------------profile--------------------- */
+.profile-page {
+    max-width: 128rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+}
+
+.profile-aside {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.profile-body {
+    width: 80%;
+}
+
+.aside-avatar {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 1.6rem;
+    box-shadow: 0 1.6rem 2.4rem rgba(0, 0, 0, 0.075);
+}
+
+.aside-avatar-img {
+    width: 13rem;
+    height: 13rem;
+}
+
+.aside-user-name {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.aside-user-register-date {
+    font-size: 1.4rem;
+}
+
+.aside-operation {
+    background-color: #fff;
+    border-radius: 1.6rem;
+    box-shadow: 0 1.6rem 2.4rem rgba(0, 0, 0, 0.075);
+}
+
+.aside-operation-link:link,
+.aside-operation-link:visited {
+    display: block;
+    color: #26292c;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-right: 2rem;
+}
+
+.aside-operation-link:last-child {
+    margin-bottom: 2rem;
+}
+
+.profile-header-main {
+    border-bottom: 1px solid #ecf1f8;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.profile-header {
+    padding: 1rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.profile-body-user-informatio {
+    background-color: #fff;
+    border-radius: 1.6rem;
+    box-shadow: 0 1.6rem 2.4rem rgba(0, 0, 0, 0.075);
+}
+
+.account-information {
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.account-information-header {
+    font-size: 1.6rem;
+    color: #2aaf27;
+    margin-bottom: 1rem;
+}
+
+.profile-icon {
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+.account-information-child {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* ----------commnet-------- */
+.comment-user {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.comment-user-item {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    border: 2px solid #ebebeb;
+    padding: 2rem;
+}
+
+.comment-user-item-user-avatar {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: 2px solid #ebebeb;
+}
+
+.comment-user-name,
+.comment-user-date {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.comment-user-date {
+    color: #ccc;
+    margin: 1rem 0;
+}
+
+.comment-user-body {
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+
+
+.get-apointment {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.get-apointment-item {
+    height: 20rem;
+    border-radius: 12px;
+    border: 2px solid #ebebeb;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.get-apointment-item-botton {
+    width: 100%;
+    height: 3.8rem;
+    font-family: "Vazir";
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 1.2rem 0;
+    color: #fff;
+    background-color: rgb(41 37 36);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.get-apointment-item-lable {
+    font-size: 1.4rem;
+}
+
+
+
+.apointment-input {
+    width: 100%;
+    height: 4.6rem;
+    padding: 0 1.6rem;
+    margin: 0.8rem 0;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-family: "vazir";
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+    .apointment-input:focus {
+        outline: 2px solid #ced4da;
+        outline-offset: 3px;
+    }
+
+.apointment-select {
+    width: 100%;
+    height: 4.6rem;
+    padding: 0 1.6rem;
+    margin: 0.8rem 0;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-family: "vazir";
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.appointment-option {
+    font-family: "vazir";
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.new-apointment {
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.new-apointment-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
+
+.new-apointment-btn {
+    width: 50%;
+    height: 4.8rem;
+    font-family: "Vazir";
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 1rem auto 0 auto;
+    color: #fff;
+    background-color: rgb(41 37 36);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    grid-column: 1/-1;
+}
+
+.table-turns {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .table-turns td,
+    .table-turns th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .table-turns tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .table-turns tr:hover {
+        background-color: #ddd;
+    }
+
+    .table-turns th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: rgb(41 37 36);
+        color: white;
+    }
+
+.apointment-table {
+    background-color: #fff;
+    border-radius: 1.6rem;
+    box-shadow: 0 1.6rem 2.4rem rgba(0, 0, 0, 0.075);
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.appointment-table-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: rgb(41 37 36);
+    padding: 0.5rem 1rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-left: 0.3rem;
+}
+
+    .appointment-table-btn:hover,
+    .appointment-table-btn:active {
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+/*-------------------*/
+/* Customizing Toastr for Persian/Farsi text */
+#toast-container > .toast {
+    direction: rtl;
+    text-align: right;
+    font-size: 14px; /* Change this value to your desired font size */
+}
+
+
+/*-----------------*/
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 50px;
+}
+
+.btn {
+    text-decoration:none;
+    color:black;
+    border: 1px solid #087f5b;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: #087f5b;
+    }
+
+        .btn:hover .btn-icon {
+            stroke: #fff;
+        }
+
+.btn-icon {
+    height: 24px;
+    width: 24px;
+    stroke: #087f5b;
+}
+
+.page-link:link,
+.page-link:visited {
+    font-size: 18px;
+    color: #343a40;
+    text-decoration: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.page-link--current {
+    background-color: #087f5b;
+    color: #fff;
+}
+
+.dots {
+    color: #868e96;
+}

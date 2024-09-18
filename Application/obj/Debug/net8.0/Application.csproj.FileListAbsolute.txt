@@ -1,0 +1,30 @@
+D:\Medical Nature\MedicalNature\Application\bin\Debug\net8.0\Application.deps.json
+D:\Medical Nature\MedicalNature\Application\bin\Debug\net8.0\Application.dll
+D:\Medical Nature\MedicalNature\Application\bin\Debug\net8.0\Application.pdb
+D:\Medical Nature\MedicalNature\Application\bin\Debug\net8.0\Domain.dll
+D:\Medical Nature\MedicalNature\Application\bin\Debug\net8.0\Domain.pdb
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\Application.dll
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\refint\Application.dll
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\Application.pdb
+D:\Medical Nature\MedicalNature\Application\obj\Debug\net8.0\ref\Application.dll
+D:\Programing\MedicalNatureOrg\Application\bin\Debug\net8.0\Application.deps.json
+D:\Programing\MedicalNatureOrg\Application\bin\Debug\net8.0\Application.dll
+D:\Programing\MedicalNatureOrg\Application\bin\Debug\net8.0\Application.pdb
+D:\Programing\MedicalNatureOrg\Application\bin\Debug\net8.0\Domain.dll
+D:\Programing\MedicalNatureOrg\Application\bin\Debug\net8.0\Domain.pdb
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\Application.dll
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\refint\Application.dll
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\Application.pdb
+D:\Programing\MedicalNatureOrg\Application\obj\Debug\net8.0\ref\Application.dll
